@@ -1,3 +1,3 @@
 TournamentTracker
-At this point, the finished form for the Tournament Tracker is the "Create Prizes" form, which allows a user to input what place a team finished (1st, 2nd, 3rd, etc.), a name for the placement (e.g. "first place", "winner", "runner-up"), the prize amount won, and/or the prize percentage won. 
-"/n" The more complex part of this project, however, involves the 
+At this point, the complete form for the Tournament Tracker is the "Create Prizes" form, which allows a user to input what place a team finished (1st, 2nd, 3rd, etc.), a name for the placement (e.g. "first place", "winner", "runner-up"), the prize amount won, and/or the prize percentage won. 
+The more complex part of this project, however, is what gets done with the input information. There are two possibilities: (1) the information gets saved to a SQL Server (the database type in "program.cs" must read "DatabaseType.Sql") or (2) the information gets saved to a text file ("program.cs" must read "DatabaseType.TextFile)"
